@@ -11,16 +11,16 @@ int main(void) {
 
 	string singer;
 
-	cout << song + "¸¦ ºÎ¸¥ °¡¼ö´Â";
-	cout << "(ÈùÆ® : Ã¹ ±ÛÀÚ´Â " << elvis[0] << "?";
+	cout << song + "ë¥¼ ë¶€ë¥¸ ê°€ìˆ˜ëŠ”";
+	cout << "(ížŒíŠ¸ : ì²« ê¸€ìžëŠ” " << elvis[0] << "?";
 	
 	cin >> singer;
 
 	if (singer == elvis) {
-		cout << "¸Â¾Ò½À´Ï´Ù";
+		cout << "ë§žì•˜ìŠµë‹ˆë‹¤";
 	}
 	else {
-		cout << "Æ²·È½À´Ï´Ù. " + elvis + "ÀÔ´Ï´Ù." << endl;
+		cout << "í‹€ë ¸ìŠµë‹ˆë‹¤. " + elvis + "ìž…ë‹ˆë‹¤." << endl;
 	}
 
 	return 0;
