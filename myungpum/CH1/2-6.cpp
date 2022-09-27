@@ -4,12 +4,12 @@ using namespace std;
 
 int main(void) {
 
-	cout << "ÁÖ¼Ò¸¦ ÀÔ·ÂÇÏ¼¼¿ä>> ";
+	cout << "ì£¼ì†Œë¥¼ ì…ë ¥í•˜ì„¸ìš”>> ";
 
 	char address[100];
 	cin.getline(address, 100, '\n');
 
-	cout << "ÁÖ¼Ò´Â " << address << "ÀÔ´Ï´Ù.";
+	cout << "ì£¼ì†ŒëŠ” " << address << "ì…ë‹ˆë‹¤.";
 
 
 	return 0;
