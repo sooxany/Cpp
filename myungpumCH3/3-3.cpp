@@ -13,14 +13,14 @@ public:
 Circle::Circle() {
 
 	radius = 1;
-	cout << "¹ÝÁö¸§ " << radius << " ¿ø »ý¼º" << endl;
+	cout << "ë°˜ì§€ë¦„ " << radius << " ì› ìƒì„±" << endl;
 
 }
 
 Circle::Circle(int r) {
 
 	radius = r;
-	cout << "¹ÝÁö¸§ " << radius << " ¿ø »ý¼º" << endl;
+	cout << "ë°˜ì§€ë¦„ " << radius << " ì› ìƒì„±" << endl;
 
 }
 
@@ -33,10 +33,10 @@ double Circle::getArea() {
 int main(void) {
 
 	Circle donut;
-	cout << "donutÀÇ ¸éÀûÀº " << donut.getArea() << endl;
+	cout << "donutì˜ ë©´ì ì€ " << donut.getArea() << endl;
 
 	Circle pizza(30);
-	cout << "pizzaÀÇ ¸éÀûÀº " << pizza.getArea() << endl;
+	cout << "pizzaì˜ ë©´ì ì€ " << pizza.getArea() << endl;
 
 
 	return 0;
