@@ -20,7 +20,7 @@ Point::Point(int a, int b)
 
 int main(void) {
 
-	Point origin; //16��° �� ȣ��
+	Point origin; //16šřÂ° ÁŮ ČŁĂâ
 	Point target(10, 20);
 	origin.show();
 	target.show();
