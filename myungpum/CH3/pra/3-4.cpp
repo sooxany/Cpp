@@ -16,7 +16,7 @@ Circle::Circle() : Circle(30) { }
 
 Circle::Circle(int r) {
 	radius = r;
-	cout << "¹ÝÁö¸§ " << radius << "¿ø »ý¼º" << endl;
+	cout << "ë°˜ì§€ë¦„ " << radius << "ì› ìƒì„±" << endl;
 }
 
 double Circle::getArea() {
@@ -29,11 +29,11 @@ int main(void) {
 
 	Circle donut;
 	double area = donut.getArea();
-	cout << "donutÀÇ ¸éÀûÀº " << area << endl;
+	cout << "donutì˜ ë©´ì ì€ " << area << endl;
 
 	Circle pizza;
 	area = pizza.getArea();
-	cout << "pizzaÀÇ ¸éÀûÀº " << area << endl;
+	cout << "pizzaì˜ ë©´ì ì€ " << area << endl;
 
 
 
